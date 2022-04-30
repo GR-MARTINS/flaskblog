@@ -19,6 +19,7 @@ Other python libraries:
 * ```itsdangerous```
 * ```os```
 * ```PIL```
+* ```python-dotenv```
 * ```secrets```
 
 Database:
