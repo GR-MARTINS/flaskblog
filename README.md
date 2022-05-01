@@ -32,16 +32,16 @@ Pages;
 ## Where to access the Flask Blog?
 App in production. Access the project at https://grgm-flaskblog.herokuapp.com/
 
-Project Steps:
+Initial project Steps:
 
 - [x] Start Projetc
 - [x] Templates
-- [ ] Forms and validation
+- [x] Forms and validation
 - [x] Database
-- [ ] Login Auth
-- [ ]  User-Account-Profile-Pic
-- [ ] Posts
-- [ ] Pagination
+- [x] Login Auth
+- [x]  User-Account-Profile-Pic
+- [x] Posts
+- [x] Pagination
 - [ ] Password reset email
-- [ ] Error Pages
+- [x] Error Pages
 - [ ] Deploy
