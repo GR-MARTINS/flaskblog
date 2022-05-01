@@ -44,4 +44,4 @@ Initial project Steps:
 - [x] Pagination
 - [ ] Password reset email
 - [x] Error Pages
-- [ ] Deploy
+- [x] Deploy
