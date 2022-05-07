@@ -7,6 +7,7 @@ EXTENSIONS = [
 [development]
 DEBUG = true
 SQLALCHEMY_TRACK_MODIFICATIONS = false
+JWT_ACCESS_TOKEN_EXPIRES = 300
 MAIL_SERVER = 'smtp.googlemail.com'
 MAIL_PORT = 587
 MAIL_USE_TLS = true
@@ -17,6 +18,7 @@ EXTENSIONS = [
     "app.ext.flask_login:init_app",
     "app.ext.flask_mail:init_app",
     "app.controllers:init_app",
+    "app.ext.flask_jwt_extended:init_app",
 
 ]
 
