@@ -42,6 +42,6 @@ Initial project Steps:
 - [x]  User-Account-Profile-Pic
 - [x] Posts
 - [x] Pagination
-- [ ] Password reset email
+- [x] Password reset email
 - [x] Error Pages
 - [x] Deploy
