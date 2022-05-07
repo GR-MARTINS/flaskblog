@@ -45,3 +45,32 @@ Initial project Steps:
 - [x] Password reset email
 - [x] Error Pages
 - [x] Deploy
+
+## Did you like the project? Follow the instructions to run locally.
+
+1. Create a virtual enviroment python in the root directory.
+2. active your virtual enviroment.
+3. Execute the command ```pip install -r requirements.txt``` for to install the necessary libraries and modules.
+4. create a file called _**.secrets.toml**_ in the root directory. In this file, configure the following settings:
+    ```
+    [default]
+    SECRET_KEY = 'your_secret_key'
+    JWT_SECRET_KEY = 'your_jwt_secret_key'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://your_postgres_username:your_password@your_host:port/your_postgres_database_name'
+    MAIL_USERNAME = 'an_email@mail.com: this will be used for the link to change the password.'
+    MAIL_PASSWORD = 'email_password'
+
+    [development]
+
+    [production]
+
+    ```
+5. Run the DB migrations with the follow commands in your virtual environment:
+   * ```flask db init```
+   * ```flask db migrate```
+   * ```flask db upgrade```
+6. Execute the command ```flask run``` for to start the Flask server.
+
+## TODO:
+
+- [ ] create interactions between users, so that it is possible to respond to posts, react, etc.
