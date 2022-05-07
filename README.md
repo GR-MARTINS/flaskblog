@@ -9,6 +9,7 @@ The Flask Blog is a simple Flask app created to showcase the versatility of the 
 Flask Extensions:
 * ```dynaconf```
 * ```flask-bcrypt```
+* ```flask-jwt-extended```
 * ```flask-login```
 * ```flask-mail```
 * ```flask-sqlalchemy```
