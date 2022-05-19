@@ -2,7 +2,7 @@
 
 ## What is the Flask Blog?
 
-The Flask Blog is a simple Flask app created to showcase the versatility of the Flask in web applications development. Flask Blog lets you create a user account. After creating the account, you will be able to create, update and delete posts, view posts from other users, change their username and profile picture and also change their password in case forget.
+The Flask Blog is a simple Flask app created to showcase the versatility of the Flask in web applications development. Flask Blog lets you create an user account. After creating the account, you will be able to create, update and delete posts, view posts from other users, change their username and profile picture and also change their password in case forget.
 
 ## What are the technologies and tools used in the project?
 
